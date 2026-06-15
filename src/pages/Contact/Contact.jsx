@@ -12,15 +12,13 @@ const contactInfo = [
   {
     icon: '📍',
     label: 'Address',
-    value: '42 Hearth Lane, Maple Grove District, New York, NY 10001',
-    href: 'https://maps.google.com/?q=42+Hearth+Lane+New+York+NY',
-    id: 'contact-map-link'
+    value: 'No 128,NSR Road,Saibaba Colony,Coimbatore,6200025',
   },
   {
     icon: '📞',
     label: 'Phone',
-    value: '(555) 123-4567',
-    href: 'tel:+15551234567',
+    value: '91 9521453268',
+    href: 'tel:+19521453268',
     id: 'contact-phone-link'
   },
   {
