@@ -149,7 +149,7 @@ export default function Home() {
               <div className="divider" />
               <p className={styles.aboutText}>
                 Sweet Hearth Bakery was born from a simple belief: great bread takes time, care, and the best ingredients. 
-                Founded in 2010 by the Williams family, we started with one sourdough recipe and a wood-fired oven.
+                Founded in 2010 by Meenakshi Iyer, we started with one beloved recipe and a small rented kitchen.
               </p>
               <p className={styles.aboutText}>
                 Today, we're proud to be a neighbourhood institution — a place where regulars are greeted by name and 
@@ -203,7 +203,7 @@ export default function Home() {
             </p>
             <div className={styles.ctaBtns}>
               <Link to="/menu" className="btn btn-primary" id="cta-menu-btn">View Our Menu</Link>
-              <a href="tel:+15551234567" className="btn btn-outline" id="cta-call-btn">📞 Call Us</a>
+              <a href="tel:+919521453268" className="btn btn-outline" id="cta-call-btn">📞 Call Us</a>
             </div>
           </div>
         </div>

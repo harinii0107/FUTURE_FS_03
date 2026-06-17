@@ -12,13 +12,13 @@ const contactInfo = [
   {
     icon: '📍',
     label: 'Address',
-    value: 'No 128,NSR Road,Saibaba Colony,Coimbatore,6200025',
+    value: 'No. 128, NSR Road, Saibaba Colony, Coimbatore – 641 011',
   },
   {
     icon: '📞',
     label: 'Phone',
-    value: '91 9521453268',
-    href: 'tel:+19521453268',
+    value: '+91 95214 53268',
+    href: 'tel:+919521453268',
     id: 'contact-phone-link'
   },
   {
@@ -32,7 +32,7 @@ const contactInfo = [
     icon: '💬',
     label: 'WhatsApp',
     value: 'Message us on WhatsApp',
-    href: 'https://wa.me/15551234567',
+    href: 'https://wa.me/919521453268',
     id: 'contact-whatsapp-link'
   },
 ]
@@ -121,7 +121,7 @@ export default function Contact() {
         <div className={styles.mapWrapper}>
           <iframe
             title="Sweet Hearth Bakery location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1!2d-73.985!3d40.748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzUyLjgiTiA3M8KwNTknMDYuMCJX!5e0!3m2!1sen!2sus!4v1"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.559!2d76.9558!3d11.0048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859b17c063e89%3A0x0!2zTlNSIFJkLCBTYWliYWJhIENvbG9ueSwgQ29pbWJhdG9yZQ!5e0!3m2!1sen!2sin!4v1"
             width="100%"
             height="400"
             style={{ border: 0 }}
@@ -133,9 +133,9 @@ export default function Contact() {
             <span className={styles.mapIcon}>📍</span>
             <div>
               <strong>Sweet Hearth Bakery</strong>
-              <p>42 Hearth Lane, Maple Grove</p>
+              <p>No. 128, NSR Road, Saibaba Colony</p>
               <a
-                href="https://maps.google.com/?q=42+Hearth+Lane+New+York+NY"
+                href="https://maps.google.com/?q=NSR+Road+Saibaba+Colony+Coimbatore"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.directionsLink}
@@ -152,12 +152,12 @@ export default function Contact() {
       <section className={styles.quickStrip}>
         <div className="container">
           <div className={styles.quickGrid}>
-            <a href="tel:+15551234567" className={styles.quickItem} id="quick-call-btn">
+            <a href="tel:+919521453268" className={styles.quickItem} id="quick-call-btn">
               <span>📞</span>
               <span>Call to Order</span>
             </a>
             <a
-              href="https://wa.me/15551234567?text=Hi! I'd like to make an order."
+              href="https://wa.me/919521453268?text=Hi! I'd like to make an order."
               target="_blank"
               rel="noopener noreferrer"
               className={styles.quickItem}

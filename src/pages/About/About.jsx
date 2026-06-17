@@ -3,31 +3,31 @@ import aboutImg from '../../assets/images/about.png'
 import styles from './About.module.css'
 
 const timeline = [
-  { year: '2010', title: 'The First Loaf', desc: 'Emma Williams bakes her first sourdough in a rented kitchen. A small farmers\' market stall quickly becomes the talk of the neighbourhood.' },
-  { year: '2013', title: 'Opening Day', desc: 'Sweet Hearth Bakery opens its doors at 42 Hearth Lane. The queue stretched around the block on opening morning.' },
-  { year: '2016', title: 'Growing the Team', desc: 'We hire our first pastry chef, Chef Antoine, bringing French-trained expertise to our croissant and cake program.' },
-  { year: '2019', title: 'Community Hub', desc: 'Sweet Hearth hosts its first bread-baking workshop. Over 500 community members have since learned the art of sourdough with us.' },
-  { year: '2023', title: 'Best Local Bakery', desc: 'Voted "Best Local Bakery" by City Food Magazine for the third year running. We\'re humbled and keep our heads down, baking.' },
+  { year: '2010', title: 'The First Batch', desc: 'Meenakshi Iyer begins baking at home — plum cakes for Christmas, cardamom cookies for Diwali. Neighbours start placing orders before the tray even cools.' },
+  { year: '2013', title: 'Opening Day', desc: 'Sweet Hearth Bakery opens on NSR Road. By 9 AM on the first morning, the display case was empty. They baked twice that day.' },
+  { year: '2016', title: 'Growing the Team', desc: 'Rajan joins as head pastry chef, bringing hotel-trained precision to the croissant and cake program. The custom cake orders triple within a year.' },
+  { year: '2019', title: 'Community Kitchen', desc: 'We start hosting weekend baking sessions for home bakers. Over 400 people have since learned to bake with us — many of them now regulars at the counter.' },
+  { year: '2023', title: 'Best Local Bakery', desc: 'Voted "Best Local Bakery" by The Food Route for the third consecutive year. We\'re grateful, and still baking the same way we always have.' },
 ]
 
 const team = [
   {
-    name: 'Emma Williams',
+    name: 'Meenakshi Iyer',
     role: 'Founder & Head Baker',
-    avatar: 'EW',
-    bio: 'Self-taught bread obsessive turned professional baker. Emma\'s 72-hour sourdough recipe is what started it all.',
+    avatar: 'MI',
+    bio: 'A home baker who never meant to open a shop. Meenakshi\'s cardamom-laced plum cake is still the first thing people ask for when they walk in.',
   },
   {
-    name: 'Antoine Moreau',
+    name: 'Rajan Krishnamurthy',
     role: 'Pastry Chef',
-    avatar: 'AM',
-    bio: 'Trained at Le Cordon Bleu Paris, Antoine brings rigorous French technique to every croissant, danish, and tart.',
+    avatar: 'RK',
+    bio: 'Trained across hotel kitchens in Chennai and Bangalore, Rajan brings professional rigour to every laminated dough and layered tart at Sweet Hearth.',
   },
   {
-    name: 'Lily Chen',
+    name: 'Divya Suresh',
     role: 'Cake Designer',
-    avatar: 'LC',
-    bio: 'With an eye for elegance and a talent for flavour, Lily transforms custom cake visions into edible masterpieces.',
+    avatar: 'DS',
+    bio: 'Divya has an eye for detail that borders on obsession. Every custom cake she designs is built around the customer\'s story, not just their brief.',
   },
 ]
 
@@ -72,19 +72,22 @@ export default function About() {
               <h2 className="heading-section">From a Home Kitchen to a Neighbourhood Institution</h2>
               <div className="divider" />
               <p>
-                Sweet Hearth Bakery began in 2010 when Emma Williams, a schoolteacher with a bread obsession, 
-                started baking sourdough in her home kitchen. What began as gifts for friends and family 
-                quickly outgrew her countertop.
+                Sweet Hearth Bakery began the way most honest things do — without a plan. In 2010, 
+                Meenakshi Iyer, a software professional who had quietly fallen in love with baking, 
+                started making plum cakes and cookies for neighbours during the festival season. 
+                Word got around the way it does in a close-knit neighbourhood, and soon people were 
+                knocking on her door in July asking about Christmas cake.
               </p>
               <p>
-                After a year of farmers' market weekends and a 3 AM alarm clock, Emma took the leap. 
-                She rented a small commercial kitchen, perfected her signature 72-hour sourdough, 
-                and opened the doors of Sweet Hearth Bakery on a rainy Tuesday in March 2013.
+                For three years she baked between weekends and late evenings, saved up, and made the 
+                decision that terrified her: she would open a shop. Sweet Hearth Bakery opened on 
+                NSR Road in 2013 with a small display case, mismatched chairs, and the smell of 
+                butter and cardamom drifting onto the street.
               </p>
               <p>
-                The queue on opening day told her everything she needed to know. Today, Sweet Hearth 
-                serves over 2,000 customers a month and has become the kind of place people bring 
-                their kids, then their grandkids.
+                The display case was empty by 9 AM on opening day. It has rarely been full past noon 
+                since. Today, Sweet Hearth serves thousands of customers a month and has become the 
+                kind of place people visit out of habit, then out of love.
               </p>
             </div>
           </div>
